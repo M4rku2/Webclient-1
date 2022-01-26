@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     Webclient w;
-    w.show();
+    w.show(); // d
 
     return a.exec();
 }
