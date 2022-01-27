@@ -38,5 +38,13 @@ void Webclient::print_text()
 void Webclient::clicked_button()
 {
     m_sock->reset();
-    m_sock->connectToHost(textinput->text(), m_port);
+    if(!textinput->text().isEmpty())
+    {
+        m_sock->connectToHost(textinput->text(), m_port);
+    }
+    else
+    {
+        textoutput("Empty");
+    }
+
 }
