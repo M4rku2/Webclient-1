@@ -12,6 +12,8 @@ Webclient::Webclient(QWidget *parent) :
     m_sock = new QTcpSocket(this);
     connect(m_sock, &QTcpSocket::connected, this, &Webclient::socket_connect);
     connect(m_sock, &QTcpSocket::readyRead, this, &Webclient::print_text);
+    connect(pushButton, &QPushButton::clicked, this, &Webclient::clicked_button); // In Stunde gemacht!
+
 }
 
 

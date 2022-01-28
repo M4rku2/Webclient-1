@@ -36,16 +36,6 @@
     </rect>
    </property>
   </widget>
-  <widget class="QTextEdit" name="output_text">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>80</y>
-     <width>261</width>
-     <height>211</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
@@ -57,6 +47,16 @@
    </property>
    <property name="text">
     <string>go</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="output_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>261</width>
+     <height>192</height>
+    </rect>
    </property>
   </widget>
  </widget>

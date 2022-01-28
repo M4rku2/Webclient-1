@@ -20,6 +20,8 @@ private slots:
     void clicked_button();
 
 
+    void on_pushButton_clicked();
+
 private:
     void textoutput(QString message);
     void socket_connect();
